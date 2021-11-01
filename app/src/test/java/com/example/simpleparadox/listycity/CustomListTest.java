@@ -25,6 +25,7 @@ public class CustomListTest {
     @Test
     public void hasCityTest(){
         City city = new City("Victoria", "British Columbia");
+        list.addCity(city);
         assertTrue(list.getCities().contains(city));
     }
 
